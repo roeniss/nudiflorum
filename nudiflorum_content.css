@@ -1,6 +1,6 @@
 relative-time {
 	&::after {
-		content: '(' attr(datetime) ')';
+		content: '(' attr(title) ')';
 		margin-inline-start: 0.5ch;
 		font-size: 90%;
 		font-variant-numeric: tabular-nums;
@@ -15,7 +15,7 @@ relative-time {
 		line-height: 1.6;
 		margin-inline-start: 2ch;
 		&::after {
-			content: attr(datetime);
+			content: attr(title);
 			margin: 0;
 			max-width: 15.2ch;
 			overflow: hidden;
@@ -35,7 +35,7 @@ relative-time {
 		justify-items: start;
 		line-height: 1.4;
 		&::after {
-			content: attr(datetime);
+			content: attr(title);
 			font-size: 85%;
 			margin: 0;
 			max-width: 15.2ch;
@@ -50,7 +50,7 @@ relative-time {
 		font-size: 90%;
 		line-height: 1.4;
 		&::after {
-			content: attr(datetime);
+			content: attr(title);
 			font-size: 85%;
 			margin: 0;
 			max-width: 15.2ch;
@@ -69,7 +69,7 @@ span:has(> .octicon-calendar) {
 		justify-items: start;
 		line-height: 1.4;
 		&::after {
-			content: attr(datetime);
+			content: attr(title);
 			font-size: 85%;
 			margin: 0;
 			max-width: 15.2ch;
@@ -85,7 +85,7 @@ span:has(> .octicon-calendar) {
 		justify-items: start;
 		line-height: 1.4;
 		&::after {
-			content: attr(datetime);
+			content: attr(title);
 			font-size: 85%;
 			margin: 0;
 			max-width: 14.8ch;
